@@ -37,9 +37,6 @@ void setup() {
 void loop() {
   digitalWrite(pin8, HIGH); // RF enable HIGH
   digitalWrite(temp_pin15, HIGH); // BURST always ON (constant output)
-  //delay(1000);
-  //digitalWrite(temp_pin15, LOW);
-  //analogWrite(temp_pin15, 10);
   digitalWrite(pin14, LOW); // Blanking off
   digitalWrite(pin16, HIGH); // Burst Mode on
   digitalWrite(pin20, HIGH); // LOAD power leveling
